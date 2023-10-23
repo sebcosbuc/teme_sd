@@ -141,7 +141,13 @@ void elementele_din_interval()
     cout<<"b=";
     cin>>b;
     cout<<"elementele din intervalul ["<<a<<","<<b<<"] "<<"sunt: ";
-    
+    while(x)
+    {
+        if((x->data<=b)&&(x->data>=a))
+            cout<<x->data<<" ";
+        x=x->next;
+    }
+    cout<<endl;
 }
 
 int main()
