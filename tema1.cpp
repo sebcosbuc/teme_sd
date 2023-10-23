@@ -19,7 +19,7 @@ void creare_lista()
 {
     node *aux;
     int n;
-    cout<<"numarul de elemente ale listei = ";
+    cout<<"numarul de elemente din lista = ";
     cin>>n;
     for(int i=0;i<n;i++)
     {
