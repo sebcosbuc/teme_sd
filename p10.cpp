@@ -98,6 +98,7 @@ void ma(nod *a)
             a=a->next;
         }
     }
+    cout<<"media aritmetica este: ";
     cout<<(float) s/i;
 }
 
@@ -110,6 +111,7 @@ int main()
     l=inserare(3,l);
     l=inserare(7,l);
     afisare_coada(l);
+    cout<<endl;
     ma(l);
     return 0;
 }
